@@ -58,3 +58,29 @@ button {
     font-size: 16px;
     color: #FFFFFF;
 }
+
+@media screen and (max-width: 1050px) {
+    #container {
+        flex-direction: column;
+        align-items: center;
+    }
+    img {
+        margin: 0px;
+        width: 90vw;
+    }
+    main {
+        display: flex;
+        flex-direction: column;
+        width: 90vw;
+    }
+    h1 {
+        font-size: 3em;
+    }
+    p {
+        font-size: 2em;
+    }
+    button {
+        width: 12em;
+        height: 4em;
+    }
+}
