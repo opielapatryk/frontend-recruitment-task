@@ -1,1 +1,1 @@
-const button=document.querySelector("button"),alertBox=document.querySelector(".alert");button.addEventListener("click",()=>{alertBox.style.display="block"});
+const button=document.querySelector("button"),alertBox=document.querySelector(".alert"),svg=document.querySelector("svg");button.addEventListener("click",()=>{alertBox.style.display="flex"}),svg.addEventListener("click",()=>{alertBox.style.display="none"});

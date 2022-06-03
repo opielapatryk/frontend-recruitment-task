@@ -61,37 +61,39 @@ button {
     color: #FFFFFF;
 }
 
-// .alert {
-//     display: none;
-// }
 .alert {
     top: 0;
     width: 100vw;
     height: 100vh;
     position: absolute;
-    background: #121212;
-    opacity: 0.5;
-    display: flex;
+    background: rgba($color: #121212, $alpha: 0.5);
     align-items: center;
     justify-content: center;
+    display: none;
+}
+
+svg {
+    position: relative;
+    left: 868px;
+    top: 40px;
 }
 
 #box {
     width: 920px;
     height: 210px;
-    background: #FFFFFF;
+    background: rgba($color: #FFFFFF, $alpha: 1);
 }
 
 #box h1 {
     position: absolute;
     left: calc(50% - 380px/2 - 175px);
-    top: calc(50% - 50px/2 - 24px);
+    top: calc(50% - 50px - 24px);
 }
 
 #box p {
     position: absolute;
     left: calc(50% - 380px/2 - 175px);
-    top: calc(50% - 24px/2 + 37px);
+    top: calc(50% - 24px + 37px);
 }
 
 //media query
