@@ -1,0 +1,1 @@
+const button=document.querySelector("button"),alertBox=document.querySelector(".alert");button.addEventListener("click",()=>{alertBox.style.display="block"});
