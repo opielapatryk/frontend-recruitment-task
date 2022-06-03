@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@300;700&display=swap');
+$text-color: #121212;
+body {
+    margin: 0px;
+    padding-top: 96px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto';
+    font-style: normal;
+}
+
+#container {
+    width: 1440px;
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    width: 505px;
+    height: 330px;
+    margin-right: 95px;
+}
+
+main {
+    width: 380px;
+    height: 250px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 120%;
+    color: $text-color;
+}
+
+p {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 150%;
+    color: $text-color;
+}
+
+button {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 16px 40px;
+    width: 128px;
+    height: 48px;
+    background: #E4C1AE;
+    border-radius: 32px;
+    border: none;
+}
+
+#button-text {
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFFFFF;
+}
