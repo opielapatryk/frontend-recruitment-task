@@ -2,20 +2,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@300;700&display=swap');
 //variables 
 $text-color: #121212;
-body {
+body,
+html {
     margin: 0px;
-    padding-top: 96px;
     box-sizing: border-box;
     display: flex;
     justify-content: center;
     font-family: 'Roboto';
     font-style: normal;
+    height: 100vh;
+    width: 100vw;
 }
 
 #container {
     width: 1440px;
     display: flex;
     justify-content: center;
+    position: absolute;
+    top: 96px;
 }
 
 img {
@@ -63,8 +67,8 @@ button {
 
 .alert {
     top: 0;
+    bottom: 0;
     width: 100vw;
-    height: 100vh;
     position: absolute;
     background: rgba($color: #121212, $alpha: 0.5);
     align-items: center;
@@ -101,6 +105,7 @@ svg {
     #container {
         flex-direction: column;
         align-items: center;
+        width: 100%;
     }
     img {
         margin: 0px;
@@ -120,5 +125,21 @@ svg {
     button {
         width: 12em;
         height: 4em;
+    }
+    //alert
+    #box {
+        width: 80vw;
+    }
+    svg {
+        top: 40px;
+        left: calc(100% - 52px);
+    }
+    #box h1 {
+        font-size: 2em;
+        left: 20%;
+    }
+    #box p {
+        font-size: 1em;
+        left: 20%;
     }
 }

@@ -9,12 +9,3 @@ button.addEventListener('click', () => {
 svg.addEventListener("click", () => {
     alertBox.style.display = "none";
 })
-
-
-document.addEventListener("click", () => {
-    notBox.forEach(e => {
-        if (e != notBox) {
-            alertBox.style.display = "none";
-        }
-    })
-})
