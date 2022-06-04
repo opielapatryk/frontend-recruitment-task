@@ -100,6 +100,24 @@ svg {
     top: calc(50% - 24px + 37px);
 }
 
+#zeruj {
+    align-items: center;
+    justify-content: center;
+    display: none;
+    padding: 16px 40px;
+    width: 128px;
+    height: 48px;
+    background: #E4C1AE;
+    border-radius: 32px;
+    border: none;
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFFFFF;
+    position: relative;
+    left: 756px;
+    top: calc(50% - 24px + 37px);
+}
+
 //media query
 @media screen and (max-width: 1050px) {
     #container {
@@ -141,5 +159,11 @@ svg {
     #box p {
         font-size: 1em;
         left: 20%;
+    }
+    #zeruj {
+        width: 8em;
+        height: 2em;
+        left: 10%;
+        top: 70%;
     }
 }
