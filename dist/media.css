@@ -1,0 +1,2 @@
+@media screen and (max-width:1050px){#container{align-items:center;flex-direction:column;width:100%}img{margin:0}img,main{width:90vw}main{display:flex;flex-direction:column}h1{font-size:3em}p{font-size:2em}button{height:4em;width:12em}#box{width:80vw}svg{left:calc(100% - 52px);top:40px}#box h1{font-size:2em;left:20%}#box p{font-size:1em;left:20%}#reset{height:2em;left:10%;top:70%;width:8em}}
+/*# sourceMappingURL=media.css.map */

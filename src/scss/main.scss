@@ -1,6 +1,4 @@
-//improt fonts
 @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@300;700&display=swap');
-//variables 
 $text-color: #121212;
 body,
 html {
@@ -100,7 +98,7 @@ svg {
     top: calc(50% - 24px + 37px);
 }
 
-#zeruj {
+#reset {
     align-items: center;
     justify-content: center;
     display: none;
@@ -116,54 +114,4 @@ svg {
     position: relative;
     left: 756px;
     top: calc(50% - 24px + 37px);
-}
-
-//media query
-@media screen and (max-width: 1050px) {
-    #container {
-        flex-direction: column;
-        align-items: center;
-        width: 100%;
-    }
-    img {
-        margin: 0px;
-        width: 90vw;
-    }
-    main {
-        display: flex;
-        flex-direction: column;
-        width: 90vw;
-    }
-    h1 {
-        font-size: 3em;
-    }
-    p {
-        font-size: 2em;
-    }
-    button {
-        width: 12em;
-        height: 4em;
-    }
-    //alert
-    #box {
-        width: 80vw;
-    }
-    svg {
-        top: 40px;
-        left: calc(100% - 52px);
-    }
-    #box h1 {
-        font-size: 2em;
-        left: 20%;
-    }
-    #box p {
-        font-size: 1em;
-        left: 20%;
-    }
-    #zeruj {
-        width: 8em;
-        height: 2em;
-        left: 10%;
-        top: 70%;
-    }
 }

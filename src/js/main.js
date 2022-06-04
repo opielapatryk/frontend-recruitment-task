@@ -6,7 +6,7 @@ const buttonText = document.querySelector("#button-text")
 const box = document.querySelector("#box")
 const para = document.querySelector("#para")
 const counterSpan = document.getElementById("counter")
-const zeruj = document.getElementById("zeruj")
+const reset = document.getElementById("reset")
 button.addEventListener('click', () => {
     alertBox.style.display = "flex";
 })
@@ -16,15 +16,16 @@ svg.addEventListener("click", () => {
 })
 
 document.addEventListener("click", (e) => {
-    if (e.target != button && e.target != buttonText && e.target != box && e.target != para && e.target != header && e.target != zeruj && e.target != counterSpan) {
+    if (e.target != button && e.target != buttonText && e.target != box && e.target != para && e.target != header && e.target != reset && e.target != counterSpan) {
         alertBox.style.display = "none"
     }
 })
 
+
 let counter = Number(localStorage.getItem('counter'))
 button.addEventListener('click', () => {
     if (counter >= 5) {
-        zeruj.style.display = "flex"
+        reset.style.display = "flex"
     }
     counter += 1
     counterSpan.innerHTML = counter
@@ -34,9 +35,9 @@ counterSpan.innerHTML = counter
 
 
 
-zeruj.addEventListener("click", () => {
+reset.addEventListener("click", () => {
     counter = 0
     counterSpan.innerHTML = counter
     localStorage.setItem('counter', counter)
-    zeruj.style.display = "none"
+    reset.style.display = "none"
 })

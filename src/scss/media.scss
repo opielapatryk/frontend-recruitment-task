@@ -1,0 +1,48 @@
+@media screen and (max-width: 1050px) {
+    #container {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    img {
+        margin: 0px;
+        width: 90vw;
+    }
+    main {
+        display: flex;
+        flex-direction: column;
+        width: 90vw;
+    }
+    h1 {
+        font-size: 3em;
+    }
+    p {
+        font-size: 2em;
+    }
+    button {
+        width: 12em;
+        height: 4em;
+    }
+    //alert
+    #box {
+        width: 80vw;
+    }
+    svg {
+        top: 40px;
+        left: calc(100% - 52px);
+    }
+    #box h1 {
+        font-size: 2em;
+        left: 20%;
+    }
+    #box p {
+        font-size: 1em;
+        left: 20%;
+    }
+    #reset {
+        width: 8em;
+        height: 2em;
+        left: 10%;
+        top: 70%;
+    }
+}
